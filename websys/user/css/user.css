@@ -1,0 +1,220 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2563eb;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* TABLE */
+
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background: #2563eb;
+    color: #fff;
+    font-weight: bold;
+}
+
+tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+    transition: background 0.2s;
+}
+
+tbody tr:hover {
+    background: #f1f7ff;
+}
+
+td a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+td a:hover {
+    color: #1e40af;
+}
+
+/* STATUS */
+
+.status {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.status.PAID {
+    background-color: #28a745;
+}
+
+.status.UNPAID {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.status.OVERDUE {
+    background-color: #dc3545;
+}
+
+/* BUTTON */
+
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.back:hover {
+    background-color: #1e40af;
+    transform: translateY(-2px);
+}
+
+/* BILL CARD */
+
+.bill {
+    background: white;
+    padding: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* ===================== */
+/* LOGIN PAGE DESIGN */
+/* ===================== */
+
+.login-box {
+    background: white;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #2563eb;
+}
+
+/* FORM ALIGNMENT */
+
+.login-box form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+}
+
+/* TEXTBOXES */
+
+.login-box input {
+    width:100%;
+    max-width:300px;
+    padding:12px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    font-size:14px;
+}
+
+.login-box input:focus{
+    outline:none;
+    border-color:#2563eb;
+}
+
+/* LOGIN BUTTON */
+
+.login-box button {
+    width:100%;
+    max-width:300px;
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:15px;
+    cursor:pointer;
+    transition:background 0.3s;
+}
+
+.login-box button:hover {
+    background:#1e40af;
+}
+
+/* ERROR MESSAGE */
+
+.error{
+    background:#ffe5e5;
+    color:#d60000;
+    padding:10px;
+    border-radius:6px;
+    margin-bottom:15px;
+}
+
+/* SIGNUP LINK */
+
+.signup-link{
+    margin-top:15px;
+}
+
+.signup-link p{
+    margin:5px 0;
+}
+
+.signup-link button{
+    background:#22c55e;
+}
+
+.signup-link button:hover{
+    background:#15803d;
+}
